@@ -33,14 +33,15 @@ Building
 * PCB can be manufactured by uploading the gerber files to an online
   PCB manufacturing site. Zip the files inside 'gerbers' directory and
   upload them to the PCB manufacturing service. Additional manufacturing info:
-  Dimensions: 129 x 117 mm
-  Layers: 2
-  Board thickness: 1.6 mm
-  Copper thickness: 1 oz
-  Spacing of traces on this board is a bit larger than 10 mils so the
-  the board is suitable for low cost manufacturing.
-  Other options (if required and unsure which one to chose): tenting vias,
-  pcb type FR-4, surface HASL Lead free
+  
+  - Dimensions: 129 x 117 mm
+  - Layers: 2
+  - Board thickness: 1.6 mm
+  - Copper thickness: 1 oz
+  - Spacing of traces on this board is a bit larger than 10 mils so the
+    the board is suitable for low cost manufacturing.
+  - Other options (if required and unsure which one to chose): tenting vias,
+    pcb type FR-4, surface HASL Lead free
 
 * Parts required for the board are listed in 'bom.txt' file. Most of the parts
   are SMD, but the board is designed to use the biggest possible SMD parts
