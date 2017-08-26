@@ -1,0 +1,501 @@
+v 20130925 2
+C 40000 40000 0 0 0 title-B.sym
+T 50000 40700 9 16 1 0 0 0 2
+ORB - open retro board 
+ver 0.3
+C 43700 48500 1 0 0 input-1.sym
+{
+T 43700 48800 5 10 0 0 0 0 1
+device=INPUT
+T 41900 48600 5 10 1 1 0 0 1
+netname=JAM 16: P1 Coin
+}
+C 44500 48400 1 0 0 diode-3.sym
+{
+T 44950 48950 5 10 0 0 0 0 1
+device=DIODE
+T 44850 48850 5 10 1 1 0 0 1
+refdes=D1
+}
+C 44500 47900 1 0 0 diode-3.sym
+{
+T 44950 48450 5 10 0 0 0 0 1
+device=DIODE
+}
+C 44500 47400 1 0 0 diode-3.sym
+{
+T 44950 47950 5 10 0 0 0 0 1
+device=DIODE
+}
+C 44500 46900 1 0 0 diode-3.sym
+{
+T 44950 47450 5 10 0 0 0 0 1
+device=DIODE
+}
+C 44500 46400 1 0 0 diode-3.sym
+{
+T 44950 46950 5 10 0 0 0 0 1
+device=DIODE
+}
+C 44500 45900 1 0 0 diode-3.sym
+{
+T 44950 46450 5 10 0 0 0 0 1
+device=DIODE
+}
+C 44500 45400 1 0 0 diode-3.sym
+{
+T 44950 45950 5 10 0 0 0 0 1
+device=DIODE
+}
+C 44500 44900 1 0 0 diode-3.sym
+{
+T 44950 45450 5 10 0 0 0 0 1
+device=DIODE
+}
+C 44500 44400 1 0 0 diode-3.sym
+{
+T 44950 44950 5 10 0 0 0 0 1
+device=DIODE
+}
+C 44500 43900 1 0 0 diode-3.sym
+{
+T 44950 44450 5 10 0 0 0 0 1
+device=DIODE
+}
+C 44500 43400 1 0 0 diode-3.sym
+{
+T 44950 43950 5 10 0 0 0 0 1
+device=DIODE
+}
+C 46500 48500 1 0 0 output-1.sym
+{
+T 46600 48800 5 10 0 0 0 0 1
+device=OUTPUT
+T 47400 48600 5 10 1 1 0 0 1
+netname=P9 - 28
+}
+N 45400 48600 46500 48600 4
+N 45400 48100 46500 48100 4
+N 45400 47600 46500 47600 4
+N 45400 47100 46500 47100 4
+N 45400 46600 46500 46600 4
+N 45400 46100 46500 46100 4
+N 45400 45600 46500 45600 4
+N 45400 45100 46500 45100 4
+N 45400 44600 46500 44600 4
+N 45400 44100 46500 44100 4
+N 45400 43600 46500 43600 4
+C 46500 48000 1 0 0 output-1.sym
+{
+T 46600 48300 5 10 0 0 0 0 1
+device=OUTPUT
+T 47400 48100 5 10 1 1 0 0 1
+netname=P9 - 25
+}
+C 43700 48000 1 0 0 input-1.sym
+{
+T 43700 48300 5 10 0 0 0 0 1
+device=INPUT
+T 41900 48100 5 10 1 1 0 0 1
+netname=JAM 17: P1 Start
+}
+C 43700 47500 1 0 0 input-1.sym
+{
+T 43700 47800 5 10 0 0 0 0 1
+device=INPUT
+T 41900 47600 5 10 1 1 0 0 1
+netname=JAM 18: P1 Up
+}
+C 43700 47000 1 0 0 input-1.sym
+{
+T 43700 47300 5 10 0 0 0 0 1
+device=INPUT
+T 41900 47100 5 10 1 1 0 0 1
+netname=JAM 19: P1 Down
+}
+C 43700 46500 1 0 0 input-1.sym
+{
+T 43700 46800 5 10 0 0 0 0 1
+device=INPUT
+T 41900 46600 5 10 1 1 0 0 1
+netname=JAM 20: P1 Left
+}
+C 43700 46000 1 0 0 input-1.sym
+{
+T 43700 46300 5 10 0 0 0 0 1
+device=INPUT
+T 41900 46100 5 10 1 1 0 0 1
+netname=JAM 21: P1 Right
+}
+C 43700 45500 1 0 0 input-1.sym
+{
+T 43700 45800 5 10 0 0 0 0 1
+device=INPUT
+T 41900 45600 5 10 1 1 0 0 1
+netname=JAM 22: P1 B1
+}
+C 43700 45000 1 0 0 input-1.sym
+{
+T 43700 45300 5 10 0 0 0 0 1
+device=INPUT
+T 41900 45100 5 10 1 1 0 0 1
+netname=JAM 23: P1 B2
+}
+C 43700 44500 1 0 0 input-1.sym
+{
+T 43700 44800 5 10 0 0 0 0 1
+device=INPUT
+T 41900 44600 5 10 1 1 0 0 1
+netname=JAM 24: P1 B3
+}
+C 43700 44000 1 0 0 input-1.sym
+{
+T 43700 44300 5 10 0 0 0 0 1
+device=INPUT
+T 41900 44100 5 10 1 1 0 0 1
+netname=JAM 25: P1 B4
+}
+C 46500 47500 1 0 0 output-1.sym
+{
+T 46600 47800 5 10 0 0 0 0 1
+device=OUTPUT
+T 47400 47600 5 10 1 1 0 0 1
+netname=P9 - 42
+}
+C 46500 47000 1 0 0 output-1.sym
+{
+T 46600 47300 5 10 0 0 0 0 1
+device=OUTPUT
+T 47400 47100 5 10 1 1 0 0 1
+netname=P9 - 24
+}
+C 46500 46500 1 0 0 output-1.sym
+{
+T 46600 46800 5 10 0 0 0 0 1
+device=OUTPUT
+T 47400 46600 5 10 1 1 0 0 1
+netname=P9 - 21
+}
+C 46500 46000 1 0 0 output-1.sym
+{
+T 46600 46300 5 10 0 0 0 0 1
+device=OUTPUT
+T 47400 46100 5 10 1 1 0 0 1
+netname=P9 - 22
+}
+C 46500 45500 1 0 0 output-1.sym
+{
+T 46600 45800 5 10 0 0 0 0 1
+device=OUTPUT
+T 47400 45600 5 10 1 1 0 0 1
+netname=P9 - 17
+}
+C 46500 45000 1 0 0 output-1.sym
+{
+T 46600 45300 5 10 0 0 0 0 1
+device=OUTPUT
+T 47400 45100 5 10 1 1 0 0 1
+netname=P9 - 18
+}
+C 46500 44500 1 0 0 output-1.sym
+{
+T 46600 44800 5 10 0 0 0 0 1
+device=OUTPUT
+T 47400 44600 5 10 1 1 0 0 1
+netname=P9 - 13
+}
+C 46500 44000 1 0 0 output-1.sym
+{
+T 46600 44300 5 10 0 0 0 0 1
+device=OUTPUT
+T 47400 44100 5 10 1 1 0 0 1
+netname=P9 - 11
+}
+C 43700 43500 1 0 0 input-1.sym
+{
+T 43700 43800 5 10 0 0 0 0 1
+device=INPUT
+T 41900 43600 5 10 1 1 0 0 1
+netname=JAM 15: Test Sw.
+}
+C 46500 43500 1 0 0 output-1.sym
+{
+T 46600 43800 5 10 0 0 0 0 1
+device=OUTPUT
+T 47400 43600 5 10 1 1 0 0 1
+netname=P9 - 26
+}
+N 45400 43100 46500 43100 4
+C 46500 43000 1 0 0 output-1.sym
+{
+T 46600 43300 5 10 0 0 0 0 1
+device=OUTPUT
+T 47400 43100 5 10 1 1 0 0 1
+netname=P9 - 27
+}
+C 44600 43000 1 0 0 pushbutton.sym
+N 44000 43100 44600 43100 4
+C 43900 42800 1 0 0 gnd-1.sym
+T 42100 43100 9 10 1 0 0 0 1
+TATE switch
+T 50000 40400 9 10 1 0 0 0 1
+button inputs and switches
+T 50200 40100 9 10 1 0 0 0 1
+2
+T 51800 40100 9 10 1 0 0 0 1
+3
+T 53900 40400 9 10 1 0 0 0 1
+1
+T 53900 40100 9 10 1 0 0 0 1
+ole
+T 46400 49500 9 10 1 0 0 0 1
+BBG GPIO input pins held high on 3.3V (active low)
+T 41800 49300 9 10 1 0 0 0 2
+JAMMA outputs either 0V (button pressed)
+or disconnected or 5V (either means b. released) 
+C 51000 48500 1 0 0 input-1.sym
+{
+T 51000 48800 5 10 0 0 0 0 1
+device=INPUT
+T 49200 48600 5 10 1 1 0 0 1
+netname=JAM T: P2 Coin
+}
+C 51800 48400 1 0 0 diode-3.sym
+{
+T 52250 48950 5 10 0 0 0 0 1
+device=DIODE
+T 52150 48850 5 10 1 1 0 0 1
+refdes=D1
+}
+C 51800 47900 1 0 0 diode-3.sym
+{
+T 52250 48450 5 10 0 0 0 0 1
+device=DIODE
+}
+C 51800 47400 1 0 0 diode-3.sym
+{
+T 52250 47950 5 10 0 0 0 0 1
+device=DIODE
+}
+C 51800 46900 1 0 0 diode-3.sym
+{
+T 52250 47450 5 10 0 0 0 0 1
+device=DIODE
+}
+C 51800 46400 1 0 0 diode-3.sym
+{
+T 52250 46950 5 10 0 0 0 0 1
+device=DIODE
+}
+C 51800 45900 1 0 0 diode-3.sym
+{
+T 52250 46450 5 10 0 0 0 0 1
+device=DIODE
+}
+C 51800 45400 1 0 0 diode-3.sym
+{
+T 52250 45950 5 10 0 0 0 0 1
+device=DIODE
+}
+C 51800 44900 1 0 0 diode-3.sym
+{
+T 52250 45450 5 10 0 0 0 0 1
+device=DIODE
+}
+C 51800 44400 1 0 0 diode-3.sym
+{
+T 52250 44950 5 10 0 0 0 0 1
+device=DIODE
+}
+C 51800 43900 1 0 0 diode-3.sym
+{
+T 52250 44450 5 10 0 0 0 0 1
+device=DIODE
+}
+C 51800 43400 1 0 0 diode-3.sym
+{
+T 52250 43950 5 10 0 0 0 0 1
+device=DIODE
+}
+C 53800 48500 1 0 0 output-1.sym
+{
+T 53900 48800 5 10 0 0 0 0 1
+device=OUTPUT
+T 54700 48600 5 10 1 1 0 0 1
+netname=P9 - 30
+}
+N 52700 48600 53800 48600 4
+N 52700 48100 53800 48100 4
+N 52700 47600 53800 47600 4
+N 52700 47100 53800 47100 4
+N 52700 46600 53800 46600 4
+N 52700 46100 53800 46100 4
+N 52700 45600 53800 45600 4
+N 52700 45100 53800 45100 4
+N 52700 44600 53800 44600 4
+N 52700 44100 53800 44100 4
+N 52700 43600 53800 43600 4
+C 53800 48000 1 0 0 output-1.sym
+{
+T 53900 48300 5 10 0 0 0 0 1
+device=OUTPUT
+T 54700 48100 5 10 1 1 0 0 1
+netname=P9 - 29
+}
+C 51000 48000 1 0 0 input-1.sym
+{
+T 51000 48300 5 10 0 0 0 0 1
+device=INPUT
+T 49200 48100 5 10 1 1 0 0 1
+netname=JAM U: P2 Start
+}
+C 51000 47500 1 0 0 input-1.sym
+{
+T 51000 47800 5 10 0 0 0 0 1
+device=INPUT
+T 49200 47600 5 10 1 1 0 0 1
+netname=JAM V: P2 Up
+}
+C 51000 47000 1 0 0 input-1.sym
+{
+T 51000 47300 5 10 0 0 0 0 1
+device=INPUT
+T 49200 47100 5 10 1 1 0 0 1
+netname=JAM W: P2 Down
+}
+C 51000 46500 1 0 0 input-1.sym
+{
+T 51000 46800 5 10 0 0 0 0 1
+device=INPUT
+T 49200 46600 5 10 1 1 0 0 1
+netname=JAM X: P2 Left
+}
+C 51000 46000 1 0 0 input-1.sym
+{
+T 51000 46300 5 10 0 0 0 0 1
+device=INPUT
+T 49200 46100 5 10 1 1 0 0 1
+netname=JAM Y: P2 Right
+}
+C 51000 45500 1 0 0 input-1.sym
+{
+T 51000 45800 5 10 0 0 0 0 1
+device=INPUT
+T 49200 45600 5 10 1 1 0 0 1
+netname=JAM Z: P2 B1
+}
+C 51000 45000 1 0 0 input-1.sym
+{
+T 51000 45300 5 10 0 0 0 0 1
+device=INPUT
+T 49200 45100 5 10 1 1 0 0 1
+netname=JAM a: P2 B2
+}
+C 51000 44500 1 0 0 input-1.sym
+{
+T 51000 44800 5 10 0 0 0 0 1
+device=INPUT
+T 49200 44600 5 10 1 1 0 0 1
+netname=JAM b: P2 B3
+}
+C 51000 44000 1 0 0 input-1.sym
+{
+T 51000 44300 5 10 0 0 0 0 1
+device=INPUT
+T 49200 44100 5 10 1 1 0 0 1
+netname=JAM c: P2 B4
+}
+C 53800 47500 1 0 0 output-1.sym
+{
+T 53900 47800 5 10 0 0 0 0 1
+device=OUTPUT
+T 54700 47600 5 10 1 1 0 0 1
+netname=P8 - 35
+}
+C 53800 47000 1 0 0 output-1.sym
+{
+T 53900 47300 5 10 0 0 0 0 1
+device=OUTPUT
+T 54700 47100 5 10 1 1 0 0 1
+netname=P8 - 33
+}
+C 53800 46500 1 0 0 output-1.sym
+{
+T 53900 46800 5 10 0 0 0 0 1
+device=OUTPUT
+T 54700 46600 5 10 1 1 0 0 1
+netname=P8 - 31
+}
+C 53800 46000 1 0 0 output-1.sym
+{
+T 53900 46300 5 10 0 0 0 0 1
+device=OUTPUT
+T 54700 46100 5 10 1 1 0 0 1
+netname=P8 - 32
+}
+C 53800 45500 1 0 0 output-1.sym
+{
+T 53900 45800 5 10 0 0 0 0 1
+device=OUTPUT
+T 54700 45600 5 10 1 1 0 0 1
+netname=P8 - 19
+}
+C 53800 45000 1 0 0 output-1.sym
+{
+T 53900 45300 5 10 0 0 0 0 1
+device=OUTPUT
+T 54700 45100 5 10 1 1 0 0 1
+netname=P8 - 17
+}
+C 53800 44500 1 0 0 output-1.sym
+{
+T 53900 44800 5 10 0 0 0 0 1
+device=OUTPUT
+T 54700 44600 5 10 1 1 0 0 1
+netname=P8 - 14
+}
+C 53800 44000 1 0 0 output-1.sym
+{
+T 53900 44300 5 10 0 0 0 0 1
+device=OUTPUT
+T 54700 44100 5 10 1 1 0 0 1
+netname=P8 - 13
+}
+C 51000 43500 1 0 0 input-1.sym
+{
+T 51000 43800 5 10 0 0 0 0 1
+device=INPUT
+T 49200 43600 5 10 1 1 0 0 1
+netname=JAM S: Tilt Sw.
+}
+C 53800 43500 1 0 0 output-1.sym
+{
+T 53900 43800 5 10 0 0 0 0 1
+device=OUTPUT
+T 54700 43600 5 10 1 1 0 0 1
+netname=P9 - 31
+}
+C 51800 42900 1 0 0 diode-3.sym
+{
+T 52250 43450 5 10 0 0 0 0 1
+device=DIODE
+}
+N 52700 43100 53800 43100 4
+C 51000 43000 1 0 0 input-1.sym
+{
+T 51000 43300 5 10 0 0 0 0 1
+device=INPUT
+T 49200 43100 5 10 1 1 0 0 1
+netname=JAM R: Service Sw.
+}
+C 53800 43000 1 0 0 output-1.sym
+{
+T 53900 43300 5 10 0 0 0 0 1
+device=OUTPUT
+T 54700 43100 5 10 1 1 0 0 1
+netname=P9 - 41
+}
+T 46400 49200 9 10 1 0 0 0 1
+P8 - X and P9 - X : BBG GPIO Pins
+T 42300 41300 9 10 1 0 0 0 1
+D1: fast switching diode 15V, 4ns

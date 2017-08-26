@@ -1,0 +1,26 @@
+BeagleBone Green,           1x, Seeed studio single board computer
+74HC4066D,                  1x, Quad bilateral analog switch SOIC-14
+CLC4007,                    1x, Quad High-speed Op Amp SOIC-14
+ATtiny13a-ssh,              1x, MCU 8bit AVR SOIC-8
+
+Diode D1,                  24x, Diode switching 100V 0.15A 4ns SMD1206 
+Capacitor tantalum 2.2uF,   1x, 10V SMD1206
+Capacitor 100nF,            1x, 25V SMD1206
+Resistor 10k,               3x, 1% 0.25W SMD1206
+Resistor 4k7,               3x, 1% 0.25W SMD1206
+Resistor 2k2,               3x, 1% 0.25W SMD1206
+Resistor 1k,                8x, 1% 0.25W SMD1206
+Resistor 510,               3x, 1% 0.25W SMD1206
+Resistor 470,               4x, 1% 0.25W SMD1206
+Resistor 330,               1x, 0.25W SMD1206
+Resistor 270,               1x, 0.25W SMD1206
+Resistor 220,               1x, 0.25W SMD1206
+Resistor 200,               1x, 0.25W SMD1206
+Resistor 51,                6x, 1% 0.25W SMD1206
+Dual row header pins 2x40,  1x, 2 rows of 40 pins 0.1" (2.54mm) pitch
+Single row header pin 1x10, 1x, 1 row of at least 9 pins
+
+optional for audio:
+Trimmer 2K 3362P,           2x, top adj cermet trimmer 2k 6mm
+PAM8403 Audio module,       1x, PAM8403 digital amplifier module mini 2x3W green PCB (ebay) 
+
