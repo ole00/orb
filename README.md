@@ -1,4 +1,4 @@
-# orb
+# ORB
 
 ORB is an open hardware board designed for retro games housed inside
 JAMMA arcade cabinets or played on arcade superguns. It handles inputs from
